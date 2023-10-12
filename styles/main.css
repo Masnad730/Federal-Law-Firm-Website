@@ -1,0 +1,49 @@
+@tailwind utilities;
+
+@layer utilities {
+  /*General Utility Classes*/
+
+  .bg-hero-contact {
+    background: rgb(64, 148, 198);
+    background: linear-gradient(
+        0deg,
+        rgba(64, 148, 198, 0.85) 47%,
+        rgba(157, 195, 218, 0.49205619747899154) 100%,
+        rgba(255, 255, 255, 0.5844931722689075) 100%
+      ),
+      url('/images/contact-us-title-bg.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-hero-career {
+    background: rgb(64, 148, 198);
+    background: linear-gradient(
+        0deg,
+        rgba(64, 148, 198, 0.75) 47%,
+        rgba(157, 195, 218, 0.49205619747899154) 100%,
+        rgba(255, 255, 255, 0.5844931722689075) 100%
+      ),
+      url('/images/hero.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-fun-facts {
+    background: rgb(33, 71, 93);
+    background: linear-gradient(
+        335deg,
+        rgba(33, 71, 93, 0.713344712885154) 73%,
+        rgba(157, 195, 218, 0.49205619747899154) 100%,
+        rgba(255, 255, 255, 0.5844931722689075) 100%
+      ),
+      url('/images/fun-facts.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
